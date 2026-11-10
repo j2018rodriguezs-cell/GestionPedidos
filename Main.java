@@ -30,7 +30,9 @@ class Pedido {
 
     @Override
     public String toString() {
-        return "Pedido [Cliente=" + cliente + ", Total=$" + total + ", Pagado=" + pagado + "]";
+        // Traduce el booleano a "Sí" o "No" para que se vea impecable
+        String estadoPagado = pagado ? "Sí" : "No";
+        return "Pedido [Cliente=" + cliente + ", Total=$" + total + ", Pagado=" + estadoPagado + "]";
     }
 }
 
