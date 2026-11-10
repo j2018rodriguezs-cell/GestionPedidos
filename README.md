@@ -48,8 +48,8 @@ Al ejecutar el programa, la consola muestra de forma secuencial la lista origina
 
 
 === 1. LISTA ORIGINAL DE PEDIDOS ===
-Pedido [Cliente=Carlos Pérez, Total=$120000.0, Pagado=true]
 
+Pedido [Cliente=Carlos Pérez, Total=$120000.0, Pagado=true]
 Pedido [Cliente=Ana Gómez, Total=$45000.0, Pagado=false]
 
 Pedido [Cliente=Mateo Rodríguez, Total=$250000.0, Pagado=true]
