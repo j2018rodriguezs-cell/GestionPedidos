@@ -47,9 +47,10 @@ El programa hace uso de tres interfaces funcionales nativas de Java para procesa
 Al ejecutar el programa, la consola muestra de forma secuencial la lista original, el resultado del filtro con `Predicate`, la transformación del `Function` y el procesamiento de las facturas con `Consumer`:
 
 
-=== 1. LISTA ORIGINAL DE PEDIDOS ===
+__=== 1. LISTA ORIGINAL DE PEDIDOS ===__
 
 Pedido [Cliente=Carlos Pérez, Total=$120000.0, Pagado=true]
+
 Pedido [Cliente=Ana Gómez, Total=$45000.0, Pagado=false]
 
 Pedido [Cliente=Mateo Rodríguez, Total=$250000.0, Pagado=true]
@@ -57,14 +58,14 @@ Pedido [Cliente=Mateo Rodríguez, Total=$250000.0, Pagado=true]
 Pedido [Cliente=Lucía Torres, Total=$80000.0, Pagado=false]
 
 
-=== 2. PEDIDOS MAYORES A $100.000 (Evaluación con Predicate) ===
+__=== 2. PEDIDOS MAYORES A $100.000 (Evaluación con Predicate) ===__
 
 -> Carlos Pérez tiene un pedido grande por: $120000.0
 
 -> Mateo Rodríguez tiene un pedido grande por: $250000.0
 
 
-=== 3. APLICACIÓN DE DESCUENTOS (Transformación con Function) ===
+__=== 3. APLICACIÓN DE DESCUENTOS (Transformación con Function) ===__
 
 Cliente: Carlos Pérez | Total con 10% de descuento: $108000.0
 
@@ -75,7 +76,7 @@ Cliente: Mateo Rodríguez | Total con 10% de descuento: $225000.0
 Cliente: Lucía Torres | Total con 10% de descuento: $72000.0
 
 
-=== 4. PROCESAMIENTO DE FACTURAS (Consumo con Consumer) ===
+__=== 4. PROCESAMIENTO DE FACTURAS (Consumo con Consumer) ===__
 
 [FACTURA ELECTRÓNICA] Carlos Pérez -- Estado: APROBADO Y PAGADO
 
