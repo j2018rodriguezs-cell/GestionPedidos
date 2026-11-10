@@ -11,7 +11,7 @@ El proyecto implementa un sistema de **Gestión de Pedidos** para un establecimi
 El programa opera sobre una estructura de datos lineal basada en `List<Pedido>`, donde cada objeto almacena los siguientes atributos:
 * `cliente` (`String`): Nombre del comprador.
 * `total` (`double`): Monto monetario total del pedido.
-* `pagado` (`boolean`): Estado financiero que indica si la factura ya fue pagada (`true`) o está pendiente (`false`).
+* `pagado` (`boolean`): Estado financiero que indica si la factura ya fue pagada (`true`) (Si) o está pendiente (`false`)(No).
 
 ## ⚡ Explicación de las Expresiones Lambda Implementadas
 El programa hace uso de tres interfaces funcionales nativas de Java para procesar los datos:
@@ -19,7 +19,7 @@ El programa hace uso de tres interfaces funcionales nativas de Java para procesa
 1. **`Predicate<Pedido>`**:
    * **Qué recibe:** Un objeto de tipo `Pedido`.
    * **Qué operación realiza:** Evalúa una condición booleana para filtrar los pedidos cuyo monto total sea superior a $100.000 (`p.getTotal() > 100000.0`).
-   * **Qué devuelve:** Un valor de tipo `boolean` (`true` o `false`).
+   * **Qué devuelve:** Un valor de tipo `boolean` (`true` o `false`), (Si o No).
 
 2. **`Function<Pedido, String>`**:
    * **Qué recibe:** Un objeto de tipo `Pedido`.
@@ -49,13 +49,13 @@ Al ejecutar el programa, la consola muestra de forma secuencial la lista origina
 
 __=== 1. LISTA ORIGINAL DE PEDIDOS ===__
 
-Pedido [Cliente=Carlos Pérez, Total=$120000.0, Pagado=true]
+Pedido [Cliente=Carlos Pérez, Total=$120000.0, Pagado=Si]
 
-Pedido [Cliente=Ana Gómez, Total=$45000.0, Pagado=false]
+Pedido [Cliente=Ana Gómez, Total=$45000.0, Pagado=No]
 
-Pedido [Cliente=Mateo Rodríguez, Total=$250000.0, Pagado=true]
+Pedido [Cliente=Mateo Rodríguez, Total=$250000.0, Pagado=Si]
 
-Pedido [Cliente=Lucía Torres, Total=$80000.0, Pagado=false]
+Pedido [Cliente=Lucía Torres, Total=$80000.0, Pagado=No]
 
 
 __=== 2. PEDIDOS MAYORES A $100.000 (Evaluación con Predicate) ===__
