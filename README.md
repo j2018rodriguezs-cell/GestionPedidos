@@ -45,6 +45,8 @@ El programa hace uso de tres interfaces funcionales nativas de Java para procesa
 
 ## 📈 Ejemplo de los Resultados Esperados
 Al ejecutar el programa, la consola muestra de forma secuencial la lista original, el resultado del filtro con `Predicate`, la transformación del `Function` y el procesamiento de las facturas con `Consumer`:
+
+
 === 1. LISTA ORIGINAL DE PEDIDOS ===
 Pedido [Cliente=Carlos Pérez, Total=$120000.0, Pagado=true]
 Pedido [Cliente=Ana Gómez, Total=$45000.0, Pagado=false]
