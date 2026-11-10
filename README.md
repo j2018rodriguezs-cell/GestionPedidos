@@ -49,25 +49,42 @@ Al ejecutar el programa, la consola muestra de forma secuencial la lista origina
 
 === 1. LISTA ORIGINAL DE PEDIDOS ===
 Pedido [Cliente=Carlos Pérez, Total=$120000.0, Pagado=true]
+
 Pedido [Cliente=Ana Gómez, Total=$45000.0, Pagado=false]
+
 Pedido [Cliente=Mateo Rodríguez, Total=$250000.0, Pagado=true]
+
 Pedido [Cliente=Lucía Torres, Total=$80000.0, Pagado=false]
 
+
 === 2. PEDIDOS MAYORES A $100.000 (Evaluación con Predicate) ===
+
 -> Carlos Pérez tiene un pedido grande por: $120000.0
+
 -> Mateo Rodríguez tiene un pedido grande por: $250000.0
 
+
 === 3. APLICACIÓN DE DESCUENTOS (Transformación con Function) ===
+
 Cliente: Carlos Pérez | Total con 10% de descuento: $108000.0
+
 Cliente: Ana Gómez | Total con 10% de descuento: $40500.0
+
 Cliente: Mateo Rodríguez | Total con 10% de descuento: $225000.0
+
 Cliente: Lucía Torres | Total con 10% de descuento: $72000.0
 
+
 === 4. PROCESAMIENTO DE FACTURAS (Consumo con Consumer) ===
+
 [FACTURA ELECTRÓNICA] Carlos Pérez -- Estado: APROBADO Y PAGADO
+
 [FACTURA ELECTRÓNICA] Ana Gómez -- Estado: PENDIENTE DE PAGO
+
 [FACTURA ELECTRÓNICA] Mateo Rodríguez -- Estado: APROBADO Y PAGADO
+
 [FACTURA ELECTRÓNICA] Lucía Torres -- Estado: PENDIENTE DE PAGO
+
 
 ## 🤖 Declaración sobre el Uso de Herramientas de Inteligencia Artificial
 * **Herramienta utilizada:** Gemini (Google IA).
