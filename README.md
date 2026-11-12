@@ -88,6 +88,7 @@ __=== 4. PROCESAMIENTO DE FACTURAS (Consumo con Consumer) ===__
 
 
 ## 🤖 Declaración sobre el Uso de Herramientas de Inteligencia Artificial
+
 * **Herramienta utilizada:** Gemini (Google IA).
-* **Para qué se utilizó:** Como apoyo conceptual y metodológico para estructurar la lógica orientada a interfaces funcionales en Java y redactar la documentación técnica del repositorio.
-* **Qué parte de la respuesta se tuvo que verificar, modificar o corregir:** Se verificó y probó línea por línea la ejecución del código fuente en Visual Studio Code, ajustando la estructura del flujo de datos en la consola para garantizar el cumplimiento estricto de los requerimientos académicos. 
+* **Para qué se utilizó:** Para consultar cómo estructurar correctamente el operador ternario dentro del método `toString()` para traducir los valores booleanos a "Sí" o "No".
+* **Qué parte de la respuesta se tuvo que verificar, modificar o corregir:** Únicamente se tomó la referencia sintáctica puntual de esa consulta.
